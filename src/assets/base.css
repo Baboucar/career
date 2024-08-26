@@ -1,0 +1,28 @@
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.center__text{
+  text-align: center;
+}
+body {
+ 
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
